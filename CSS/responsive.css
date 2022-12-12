@@ -1,0 +1,56 @@
+@media only screen and (max-width:500px) {
+    /* Header Started */
+    .navbar{
+        flex-direction: row;
+        font-size: 15px;
+        height: 50px;
+        transition: none;
+    }
+    .navbar .logo img {
+        height: 30px;
+        width: 30px;
+        margin: 0px 10px;
+    }
+    .navbar ul li {
+        margin: 0px;
+        padding: 5px 10px;
+    }
+    /* Header done */
+    /* Container CSS */
+    .container h1{
+        font-size: 20px;
+        margin: 10px;
+    }
+    .container h1{
+        font-size: 20px;
+        margin: 10px;
+    }
+    .para{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-style: italic;
+        font-size: small;
+        padding: 15px;
+    }
+    .para span{ 
+        font-weight: 540;
+    }
+    #search1 {
+        margin: 0px 10px;
+        width: 100%;
+    }
+    .footer1{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+    .info4{
+        display: none;
+    }    
+.reviews-container{
+    width: 300px;
+}
+.reviews-container .r-card{
+    min-width: 250px;
+    min-height: 290px;
+}
+
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Wish Generator</title>
+    <link rel="stylesheet" href="CSS/birthday.css">
+    <link rel="stylesheet" href="CSS/mobile.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo1.jpeg" alt="Image can't load">
+        </div>
+        <ul>
+            <li class="item-1" class="active"><a href="index.html">Home</a></li>
+            <li class="item-2"><a href="#">About Us</a></li>
+            <!-- <li class="item-4"><a href="#">Contact Us</a></li> -->
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="INFO">
+            <h1>WEDDING WISHES GENERATOR</h1>
+            <p><b>Knowing What To Say For A Wedding Greeting</b> is our jam! can help you come up with the
+                best<b>Wedding Wishes</b>
+            </p>
+        </div>
+        <div class="select-btn">
+            <select name="Options" id="btnselect" onchange="getop();">
+                <option value="1">Who is the greeting for ?</option>
+                <option value="Friend">Friend</option>
+                <option value="Brother">Brother</option>
+                <option value="Sister">Sister</option>
+            </select>
+        </div>
+        <input type="text" name="" id="fname" style="margin-bottom: 30px" placeholder="Your Name">
+        <div id="output1">
+            <h4 id="name1"></h4>
+            <p id="output"></p>
+        </div>
+        <button id="btn" onClick="getQuote()">Genarate wish</button>
+        <!-- socialLink -->
+        <div class="socialLink">
+            <div class="wrapper">
+                <div class="button">
+                    <div class="icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <span>Facebook</span>
+                </div>
+                <div class="button">
+                    <div class="icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <span>Instagram</span>
+                </div>
+                <div class="button">
+                    <div class="icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <span><a href="https://api.whatsapp.com/send?phone=9881314340&text=Hello this is the starting message"
+                            target="_blank" style="text-decoration:none ; color:rgb(36, 36, 36)">Whatsapp Chat</a>span>
+                </div>
+                <div class="button">
+                    <div class="icon">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <span>YouTube</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Javascript/wedding.js"></script>
+</body>
+
+</html>

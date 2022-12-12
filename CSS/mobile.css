@@ -1,0 +1,194 @@
+@media only screen and (max-width:500px) {
+    .container {
+        
+        height: 590px;
+        width: 350px;
+        background-color: rgb(243, 242, 242);
+        color: #fff;
+        margin: auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border: 4px solid rgb(253, 252, 252);
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgb(255, 235, 146);
+        margin-top: 50px;
+    }
+    
+    .INFO {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 160px;
+        width: 300px;
+        background-color: rgba(90, 89, 89, 0);
+        border: 2px solid wheat;
+        box-shadow: 0px 0px 10px #fff;
+    
+    }
+    
+    .INFO h1 {
+        font-size: 22px;
+        font-weight: bold;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background: linear-gradient(to right, #ff002f, #ff6b08, #e900e9), rgb(255 235 146);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    
+    .INFO p {
+        color: rgb(126, 126, 126);
+        margin-top: -6px;
+        margin-bottom: 6px;
+        /* font-family: Georgia, 'Times New Roman', Times, serif; */
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .select-btn {
+        margin-bottom: 33px;
+        margin-top: -8px;
+        /* box-shadow: 0px 0px 5px rgb(179, 178, 178); */
+    }
+    
+    .select-btn option {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 5px;
+        background: none;
+        font-size: 15px;
+        color: rgb(155, 154, 154);
+        padding: 20px 15px 16px 5px;
+    }
+    
+    #output1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        width: 300px;
+        height: 200px;
+        border-radius: 10px;
+        color: rgb(70, 70, 70);
+        padding: 10px;
+        background-color: #ecf0f3;
+        box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+    }
+    
+    #nume1 {
+        font-size: 14px;
+    }
+    
+    #btn {
+        margin-top: 40px;
+        width: 200px;
+        padding: 5px;
+        cursor: pointer;
+        font-weight: 600;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #fff;
+        width: 80%;
+        height: 50px;
+        border-radius: 20px;
+        font-size: 15px;
+        text-align: center;
+        background-color: #02c8db;
+        box-shadow: 3px 3px 6px #757474, -3px -3px 8px #fff;
+        transition: all 0.7s;
+    
+    }
+    
+    #btn:hover {
+        background-color: #05b7fd;
+    }
+    
+    #btn:active {
+        background-color: #08cbfc;
+    }
+    
+    
+    
+    /* Social Links */
+    .socialLink {
+        margin-top: 20px;
+    }
+    
+    .wrapper .button {
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        float: left;
+        margin: 0px 5px;
+        overflow: hidden;
+        background: #fff;
+        border-radius: 40px;
+        cursor: pointer;
+        color: black;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease-out;
+    
+    }
+    
+    .wrapper .button:hover {
+        width: 140px;
+    }
+    
+    .wrapper .button .icon {
+        display: inline-block;
+        text-align: center;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        box-sizing: border-box;
+        line-height: 40px;
+    
+    }
+    
+    .wrapper .button .icon i {
+        font-size: 22px;
+        line-height: 40px;
+        transition: all 0.3s ease-out;
+    
+    }
+    
+    .wrapper .button span {
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 40px;
+        margin-left: 5px;
+    }
+    
+    
+    .wrapper .button:nth-child(1) .icon {
+        background-color: #4267b2;
+    }
+    
+    .wrapper .button:nth-child(2) .icon {
+        background-color: #d8259c;
+    }
+    
+    .wrapper .button:nth-child(3) .icon {
+        background-color: #06e619;
+    }
+    
+    .wrapper .button:nth-child(4) .icon {
+        background-color: #d32525;
+    }
+    /* Text Field Demo */
+    input {
+        border: none;
+        outline: none;
+        background: none;
+        margin-top:-40px ;
+        font-size: 15px;
+        color: #555;
+        padding: 8px 20px;
+        /* padding: 20px 15px 16px 5px; */
+        box-shadow: inset 3px 3px 6px #d8d8d8, -3px -3px 5px #fff, 2px 2px 6px rgb(201, 200, 200);
+    }
+}
