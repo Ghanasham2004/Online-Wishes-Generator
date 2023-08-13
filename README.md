@@ -27,5 +27,5 @@ This project is open for contributions! If you'd like to enhance the website or 
 
 ## 📫 Contact
 
-Got questions or suggestions? Reach out to me on [LinkedIn](https://www.linkedin.com/in/ghanasham-irshetti/) or connect via email at [your@email.com](irashettig@email.com).
+Got questions or suggestions? Reach out to me on [LinkedIn](https://www.linkedin.com/in/ghanasham-irshetti/) or connect via email at [irashettig@gmail.com](irashettig@email.com).
 
