@@ -18,7 +18,7 @@ Welcome to the Online Wishes Generator, a delightful project where you can creat
 
 ## 🌐 Live Demo
 
-Check out the [Live Demo](https://your-website-url.com) to experience the magic of the Online Wishes Generator firsthand!
+Check out the [Live Demo](https://ghanasham2004.github.io/Online-Wishes-Generator/) to experience the magic of the Online Wishes Generator firsthand!
 
 
 ## 🤝 Contribution
